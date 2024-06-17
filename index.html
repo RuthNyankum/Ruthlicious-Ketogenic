@@ -1,11 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ruthlicious Keto Haven</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/logo_hero.css">
+    <link rel="stylesheet" href="css/about_discover.css">
+    <link rel="stylesheet" href="css/menu_video.css">
+    <link rel="stylesheet" href="css/reservation_review.css">
+    <link rel="stylesheet" href="css/signup_footer.css">
 </head>
+
 <body>
+    <nav>
+        <img id="logo" src="./assets/logo/png/logo-no-background.png" alt="Company logo">
+
+        <div id="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Reservation</a>
+            <a href="#">Gallery</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">contact</a>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div id="hero-overlay">
+            <header>
+                <span id="subtext-one" class="courgette-regular">Welcome to</span>
+                <span id="subtext-two" class="poppins-bold">Ruthlicious Keto Haven</span>
+            </header>
+            <button class="menu-button">Look Menu</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div id="about-text">
+            <div class="sub-header">
+                <span class="courgette-regular">Canadian Restaurant</span>
+                <span class="poppins-bold">Welcome</span>
+            </div>
+            <p id="about-p">Ruthlicious Keto Haven offers mouth-watering, keto-friendly dishes crafted from the freshest
+                ingredients. Inspired by Ruth's personal journey to health, join our community and enjoy meals that
+                satisfy both your taste buds and wellness goals. Eat clean, live keto.
+            </p>
+            <div id="about-links">
+                <a href="#">Our Story<span>&rarr;</span></a>
+            </div>
+        </div>
+        <img id="about-image" src="./assets/images/about44.jpg" alt="About image">
+    </section>
+
+    <section id="discover">
+        <div class="discover-content">
+            <span class="courgette-regular">Discover</span>
+            <span class="poppins-bold">Ruthlicious Keto Haven</span>
+        </div>
+        <div class="flex-container">
+            <!-- picture one -->
+            <div class="card">
+                <div class="card-head">
+                    <img src="./assets/images/healthy.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <a href="#">
+                        <h3>Healthy Restaurant</h3>
+                    </a>
+                    <p>The keto diet promotes weight loss through fat burning and may improve heart health markers, but
+                        further research is warranted.
+                    </p>
+                    <a href="#">learn more <span>&rarr;</span></a>
+                </div>
+            </div>
+            <!-- picture two -->
+
+            <div class="card">
+                <div class="card-head">
+                    <img src="./assets/images/delicious.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <a href="#">
+                        <h3>delicious food</h3>
+                    </a>
+                    <p>The combination of high-quality ingredients, healthy fats, creative recipes, and natural flavors
+                        contributes to the deliciousness of keto food.
+                    </p>
+                    <a href="#">learn more <span>&rarr;</span></a>
+                </div>
+            </div>
+            <!-- picture three -->
+            <div class="card">
+                <div class="card-head">
+                    <img src="./assets/images/smooothieee1111.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <a href="#">
+                        <h3>Smoothie you love</h3>
+                    </a>
+                    <p>
+                        Keto smoothies are a tasty, nutritious, and easy way to stay on track with a ketogenic diet.
+                    </p>
+                    <a href="#">learn more <span>&rarr;</span></a>
+                </div>
+            </div>
+    </section>
+
+    <section id="menu">
+        <div class="sub-header">
+            <span class="courgette-regular">Discover</span>
+            <span class="poppins-bold">Our menu</span>
+        </div>
+        <div class="grid-container" class="poppins-bold">
+            <div class="group group1">
+                <a href="#" class="food-btn">Lunch</a>
+                <img src="./assets/images/meu-lunch.jpg" alt="Lunch">
+                <h3>Lunch</h3>
+            </div>
+
+            <div class="group group1">
+                <a href="#" class="food-btn">Dinner</a>
+                <img src="./assets/images/dinner-menu.jpg" alt="Dinner">
+                <h3>Dinner</h3>
+            </div>
+
+            <div class="group group3">
+                <a href="#" class="food-btn">Smoothie</a>
+                <img src="./assets/images/drink-menu.png" alt="smoothies">
+                <h3>smoothies</h3>
+            </div>
+
+            <div class="group group3">
+                <a href="#" class="food-btn">Starter</a>
+                <img src="./assets/images/starter-menu.jpg" alt="Starter">
+                <h3>Starter</h3>
+            </div>
+
+            <div class="group group2">
+                <a href="#" class="food-btn">Happy hour</a>
+                <img src="./assets/images/happyhour-menu.jpg" alt="Happy hour">
+                <h3>Happy hour</h3>
+            </div>
+
+            <div class="group group3">
+                <a href="#" class="food-btn">Dessert</a>
+                <img src="./assets/images/dessert.jpg" alt="Dessert">
+                <h3>Dessert</h3>
+            </div>
+        </div>
+    </section>
+
+    <section>Event goes here</section>
+
+    <section id="video-sec">
+        <video id="video" autoplay loop>
+            <source src="./assets/video/vidwobgggg.mp4" type="video/mp4">
+        </video>
+        <div id="video-overlay">
+            <div class="sub-header">
+                <span class="courgette-regular">Discover</span>
+                <span class="poppins-bold">OUR VIDEOS</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <section id="reservation">
+            <div id="section1">
+                <div class="sub-header">
+                    <span class="courgette-regular">Reservation</span>
+                    <span class="poppins-bold">BOOK TABLES</span>
+                </div>
+                <form class="form">
+                    <div id="input-grid">
+                        <span class="form-item">
+                            <label for="date">Date</label>
+                            <input id="date" type="date" />
+                        </span>
+                        <span class="form-item">
+                            <label for="name">Name</label>
+                            <input id="name" type="name" />
+                        </span>
+                        <span class="form-item">
+                            <label for="time">Time</label>
+                            <input id="time" type="time" />
+                        </span>
+                        <span class="form-item">
+                            <label for="phone">Phone</label>
+                            <input id="phone" type="number" />
+                        </span>
+                        <span class="form-item">
+                            <label for="people">People</label>
+                            <input id="people" type="people" />
+                        </span>
+                        <span class="form-item">
+                            <label for="email">Date</label>
+                            <input id="email" type="email" />
+                        </span>
+                    </div>
+                    <button class="btn-submit">Book Table</button>
+                </form>
+            </div>
+            <img src="./assets/images/reservation.jpg" alt="Reservation image" />
+        </section>
+    </section>
+
+    <section>
+        <section id="review">
+            <div class="sub-header">
+                <span class="courgette-regular">Customers Say</span>
+                <span class="poppins-bold">Review</span>
+            </div>
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="./assets/images/ruthy.jpg" alt="profile-picture">
+                        <p class="review-text">
+                            " Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dicta non mollitia sit recusandae a
+                            delectus voluptatibus
+                            Dicta non mollitia sit recusandae a
+                            nobis veritatis consequatur laboriosam. "
+                        </p>
+                        <span class="name">Ruthy codes - Vancouver</span>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./assets/images/ruth.jpg" alt="profile-picture">
+                        <p class="review-text">
+                            " Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dicta non mollitia sit recusandae a
+                            delectus voluptatibus
+                            Dicta non mollitia sit recusandae a
+                            nobis veritatis consequatur laboriosam. "
+                        </p>
+                        <span class="name">Ruthy codes - Vancouver</span>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./assets/images/henry.png" alt="profile-picture">
+                        <p class="review-text">
+                            " Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dicta non mollitia sit recusandae a
+                            delectus voluptatibus
+                            Dicta non mollitia sit recusandae a
+                            nobis veritatis consequatur laboriosam. "
+                        </p>
+                        <span class="name">Henry - Vancouver</span>
+                    </div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </section>
+    </section>
+
+
+    <section>
+        <div class="sub-header">
+            <span class="courgette-regular">Latest News</span>
+            <span class="poppins-bold">The Blog</span>
+        </div>
+        <div class="flex-container">
+            <!-- picture one -->
+            <div class="card">
+                <div class="card-head">
+                    <img src="./assets/images/best place.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <a href="#">
+                        <h3>Best keto diet palace</h3>
+                    </a>
+                    <p>
+                        Join our community and enjoy meals that satisfy both your taste buds and wellness goals. Eat
+                        clean, live keto.
+                    </p>
+                    <a href="#">Cointinue reading <span>&rarr;</span></a>
+                </div>
+            </div>
+            <!-- picture two -->
+
+            <div class="card">
+                <div class="card-head">
+                    <img src="./assets/images/alternativ1.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <a href="#">
+                        <h3>Eggs and veggies</h3>
+                    </a>
+                    <p> Eggs provide a substantial source of protein and healthy fats, while vegetables contribute
+                        essential fiber, vitamins, and minerals.
+                    </p>
+                    <a href="#">Cointinue reading <span>&rarr;</span></a>
+                </div>
+            </div>
+            <!-- picture three -->
+            <div class="card">
+                <div class="card-head">
+                    <img src="./assets/images/family get together.jpg" alt="">
+                </div>
+                <div class="card-body">
+                    <a href="#">
+                        <h3>family get together</h3>
+                    </a>
+                    <p>
+                        A family get-together is a wonderful time to enjoy each other's company and share delicious
+                        food. By planning ahead and incorporating a ...
+                    </p>
+                    <a href="#">Cointinue reading <span>&rarr;</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sign-up" class="poppins-bold">
+        <form action="" class="form-section">
+            <span class="special">Special Sign up</span>
+            <div class="email-container">
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                <i id="icon" class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+        </form>
+        <button class="sign-up-button" type="submit">SIGN UP</button>
+    </section>
+
+    <section id="footer">
+        <!-- CONTACT SECTION -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-head">
+                    <h4 class="footer-header">contact us</h4>
+                    <ul class="contact-items">
+                        <!-- <li>
+                            <i class="the link for the icon"></i>
+                            <a href="#">8th floor, 379 Hudson St, New York, NY 10018</a>
+                        </li> -->
+                        <li>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <!-- <a href="fa fa-map-marker">::before</a> -->
+                            8th floor, 379 Hudson St, New York, NY 10018
+                        </li>
+                        <li>
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <!-- <a href="theicon">::before</a> -->
+                            8th floor, 379 Hudson St, New York, NY 10018
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <!-- <a href="theicon">::before</a> -->
+                            8th floor, 379 Hudson St, New York, NY 10018
+                        </li>
+                    </ul>
+                    <h4 class="footer-header">opening times</h4>
+                    <ul class="contact-items">
+                        <li>9:30 AM - 11:00PM</li>
+                        <li>Everyday</li>
+                    </ul>
+                </div>
+        
+                <!-- LATEST SECTION -->
+                <div class="footer-head">
+                    <h4 class="footer-header">Latest twitter</h4>
+                    <div>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <span>@Haven</span>
+                    </div>
+                    <p>
+                        Activello is a good option. It has a slider built into that displays the featured image in the slider. 
+                    </p>
+                    <a class="latest-links" href="#">URL LINK HEREEEE</a>
+                    <p>01-07-2024</p>
     
+                    <div>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <span>@Haven</span>
+                    </div>
+                    <p>
+                        Activello is a good option. It has a slider built into that displays the featured image in the slider. 
+                    </p>
+                    <a class="latest-links" href="#">URL LINK HEREEEE</a>
+                    <p>01-07-2024</p>
+                </div>
+                
+                <!-- GALLERY SECTION -->
+                <div class="footer-head">
+                    <h4 class="footer-header">Gallery</h4>
+                    <div class="footer-images">
+                        <div class="image-items"><img src="./assets/images/alternativ1.jpg" alt="#"></div>
+                        <div class="image-items"><img src="./assets/images/best place.jpg" alt="#"></div>
+                        <div class="image-items"><img src="./assets/images/delicious.jpg" alt="#"></div>
+                        <div class="image-items"><img src="./assets/images/deliciousfood.webp" alt="#"></div>
+                        <div class="image-items"><img src="./assets/images/dessert.jpg" alt="#"></div>
+                        <div class="image-items"><img src="./assets/images/dinner-menu.jpg" alt="#"></div>
+                        <div class="image-items"><img src="./assets/images/discoverrrrrr.jpg" alt="#"></div>
+                        <div class="image-items"><img src="./assets/images/drink-menu.png" alt="#"></div>
+                        <div class="image-items"><img src="./assets/images/egs and vegs.jpg" alt="#"></div>
+                        <div class="image-items"><img src="./assets/images/family get together.jpg" alt="#"></div>
+                        <div class="image-items"><img src="/assets/images/healthy.jpg" alt="#"></div>
+                        <div class="image-items"><img src="./assets/images/heathyfood.webp" alt="#"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
