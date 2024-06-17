@@ -1,0 +1,157 @@
+#about {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    align-items: center;
+}
+
+#about-text {
+    align-items: center;
+    padding: 45px 10px;
+    width: 35%;
+}
+
+.sub-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-header :first-child {
+    color: #454B1B;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.sub-header :nth-child(2) {
+    color: rgb(34, 34, 34);
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 60px;
+    letter-spacing: 6px;
+    margin-bottom: 15px;
+}
+
+#about-p {
+    text-align: center;
+    color: #727272;
+    line-height: 25px;
+}
+
+#about-links {
+    text-align: center;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+#about-links a {
+    text-decoration: none;
+    color: #727272;
+}
+
+#about-links a:hover {
+    color: #454B1B;
+}
+
+#about-links a span {
+    margin-left: 5px;
+}
+
+#about-image {
+    width: 35%;
+    border-radius: 15px;
+}
+
+
+/* *****DICSOVER SECTION***** */
+.discover-content {
+    background-image: url(../assets/images/discoverrrrrr.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 100vw;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.discover-content :first-child {
+    font-size: 30px;
+    color: #454B1B;
+    line-height: 20px;
+}
+
+.discover-content :nth-child(2) {
+    color: white;
+    font-size: 50px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 90px 50px;
+}
+
+.flex-container .card {
+    width: 400px;
+    height: 450px;
+}
+
+.card .card-head {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card .card-head img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer; 
+    transition: all .5s ease-in-out;
+}
+
+.card .card-head img:hover {
+    transform: scale(1.1);
+}
+
+.card .card-body h3 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+}
+
+.card .card-body p {
+    line-height: 25px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.card .card-body a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    
+}
+
+.card .card-body a h3:hover {
+    color: #454B1B;
+} 
+
+.card .card-body a span {
+    margin-left: 5px;
+    font-size: 20px;
+}

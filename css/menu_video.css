@@ -1,0 +1,102 @@
+#menu {
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    /* height: 100vh; */
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    width: 70%;
+}
+
+.grid-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.grid-container .group1, .group2, .group3 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.grid-container .group:hover img {
+    transform: scale(1.1);
+}
+
+.group1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 520px;
+    border-radius: 10px;
+}
+
+.food-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 23px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    z-index: 9;
+}
+
+.food-btn:hover {
+    background-color: #454B1B;
+    color: #fff;
+  }
+  
+  .group2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* grid-row: span 3; */
+    height: 250px;
+  }
+  
+  .group3 {
+    height: 250px;
+  }
+
+  
+  #video-sec {
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+  }
+  
+  #video {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+  }
+  
+  #video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    /* padding-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #video-overlay .sub-header span:last-child {
+    color: white;
+  }

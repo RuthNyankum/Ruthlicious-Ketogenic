@@ -1,0 +1,81 @@
+#logo {
+    width: 170px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+
+/* i have to do the scrolling color for the nav links */
+
+#nav-links {
+    display: flex;
+    gap: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+}
+
+#nav-links a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav-links a:hover {
+    color: #454B1B;
+}
+
+#hero {
+    background-image: url(../assets/images/hero-bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+#hero-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    color: white;
+    row-gap: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#subtext-one {
+    font-size: 60px;
+}
+
+#subtext-two {
+    font-size: 60px;
+}
+
+.menu-button {
+    background-color: white;
+    color: #454B1B;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.menu-button:hover {
+    background-color: #454B1B;
+    color: white;
+}
